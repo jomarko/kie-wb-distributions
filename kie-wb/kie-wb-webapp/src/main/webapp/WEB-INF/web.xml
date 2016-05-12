@@ -219,6 +219,16 @@
   </servlet-mapping>
 
   <servlet>
+    <servlet-name>ServiceDefinitionServlet</servlet-name>
+    <servlet-class>org.jbpm.designer.web.server.ServiceDefinitionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServiceDefinitionServlet</servlet-name>
+    <url-pattern>/servicedefinition/*</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
     <servlet-name>PluginMediaServlet</servlet-name>
     <servlet-class>org.uberfire.ext.plugin.backend.PluginMediaServlet</servlet-class>
     <init-param>
